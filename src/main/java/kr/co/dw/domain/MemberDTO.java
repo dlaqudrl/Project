@@ -1,17 +1,22 @@
 package kr.co.dw.domain;
 
+import java.util.Date;
+
 import lombok.Data;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 
 @RequiredArgsConstructor
 @Data
 public class MemberDTO {
 
 	
-	private final Long id;
+	private final Long mNo;
 	
-	private final String name;
+	private final String mId;
+	
+	private final String email;
+	
+	private final Date regDate;
+	
 	
 }
