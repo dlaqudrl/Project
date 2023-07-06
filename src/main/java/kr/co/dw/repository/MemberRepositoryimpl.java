@@ -1,6 +1,5 @@
 package kr.co.dw.repository;
 
-import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 import kr.co.dw.Mapper.MemberMapper;
